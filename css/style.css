@@ -26,6 +26,7 @@ footer {
     height: 12vh; 
     line-height: 88px;
     background-color: #8AC720;
+    background-image: linear-gradient(90deg, #557A14, #8AC720);
     color: black;
     border: 5px solid black;
     border-radius: 11px;
@@ -58,7 +59,12 @@ a {
 
 .menu:hover {
     background-color: #ADFA28;
+    background-image: linear-gradient(90deg, #8AC720, white);
     color: #557A14;
+}
+
+.menu:active {
+    background-image: linear-gradient(90deg, #8AC720, #ADFA28);
 }
 
 .logo:hover {
@@ -185,7 +191,7 @@ h2 {
     width: 100vw;
     font-family: "Copperplate";
     font-size: 30px; 
-    color: white;
+    color: #ADFA28;
     text-align: center;
 }
 
