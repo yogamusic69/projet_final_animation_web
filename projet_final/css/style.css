@@ -1,0 +1,197 @@
+body{
+    background-color: #6C7A53;
+    background-image: linear-gradient(180deg, #6C7A53, #8AC720);
+    display: flex;
+    flex-wrap: wrap;
+    width: 98vw;
+    text-align: center;
+}
+
+header{
+    width: 98vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 98vw;
+}
+
+footer p {
+    font-size: 22px;
+}
+
+.menu {
+    width: 20vw;
+    height: 12vh; 
+    line-height: 88px;
+    background-color: #8AC720;
+    color: black;
+    border: 5px solid black;
+    border-radius: 11px;
+    margin: 5px;
+    font-family: "Copperplate";
+    font-size: 30px;
+    animation: menu 3s ease 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 20vw;
+    height: 12vh;
+    line-height: 88px;
+    background-color: #557A14;
+    color: #ADFA28;
+    border: 5px solid black;
+    border-radius: 77px;
+    text-align: center;
+    margin: 5px;
+    font-family: "Copperplate";
+    font-size: 30px;
+    animation: menu 3s ease 1;
+}
+
+.menu:hover {
+    background-color: #ADFA28;
+    color: #557A14;
+}
+
+.logo:hover {
+    background-color: #ADFA28;
+    color: #557A14;
+}
+
+@keyframes menu {
+    0% { transform: scale(1%)}
+    100% { transform: scale(100%)}
+  }
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chose {
+    display: flex;
+    border: 4px solid black;
+    background-color: #557A14;
+    border-radius: 111px;
+    width: 77vw;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    color: #ADFA28;
+    font-family: "Copperplate";
+    font-size: 111px;
+    margin-left: 80px;
+    margin-top: 22px;
+}
+
+.animation {
+    animation: test 3s ease-in-out 1;
+}
+
+@keyframes test {
+    0% {
+        border-radius: 111px;
+        background-color: #557A14;
+        width: 77vw;
+        color: #ADFA28;
+        height: 70vh;
+        font-size: 111px;
+      }
+    50% {
+      border-radius: 1111px;
+      background-color: #ADFA28;
+      width: 7vw;
+      height: 11vh;
+      color: #557A14;
+      font-size: 15px;
+      justify-content: center;
+    }
+    100% {
+      border-radius: 111px;
+      background-color: #557A14;
+      width: 77vw;
+      height: 70vh;
+      color: #ADFA28;
+      font-size: 111px;
+    }
+  }
+
+.play {
+    width: 8vw;
+    height: 5vh; 
+    line-height: 40px;
+    background-color: #8AC720;
+    color: black;
+    border: 5px solid black;
+    border-radius: 11px;
+    text-align: center;
+    margin-left: 25px;
+    font-family: "Copperplate";
+    font-size: 22px;
+    animation: menu 3s ease 1;   
+}
+
+.play:onclick {
+    background-color: #ADFA28;
+    color: #557A14;
+}
+
+section {
+    display: flex;
+    width: 98vw;
+    height: auto;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: space-between;
+}
+  
+img {
+    height: auto;
+    border: 5px double;
+}
+
+.horizontal {
+    width: 48vw;
+    height: auto;
+/*    flex-basis: 44%;*/
+}
+
+iframe {
+    width: 48vw;
+    height: 48vh;
+    border: 5px double;
+}
+
+.vertical {
+    width: 28vw;
+}
+
+h1 {
+    font-family: "Copperplate";
+    font-size: 33px;
+}
+
+h2 {
+    width: 100vw;
+    font-family: "Copperplate";
+    font-size: 30px; 
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: "Copperplate";
+    font-size: 25px;
+}
