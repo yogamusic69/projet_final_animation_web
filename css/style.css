@@ -21,10 +21,6 @@ footer {
     width: 98vw;
 }
 
-footer p {
-    font-size: 22px;
-}
-
 .menu {
     width: 20vw;
     height: 12vh; 
@@ -196,4 +192,8 @@ h2 {
 p {
     font-family: "Copperplate";
     font-size: 25px;
+}
+
+footer p {
+    font-size: 22px;
 }
