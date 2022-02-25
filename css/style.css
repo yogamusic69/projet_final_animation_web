@@ -1,6 +1,6 @@
 body{
     background-color: #6C7A53;
-    background-image: linear-gradient(180deg, #6C7A53, #8AC720);
+ /*   background-image: linear-gradient(180deg, #6C7A53, #8AC720);*/
     display: flex;
     flex-wrap: wrap;
     width: 98vw;
