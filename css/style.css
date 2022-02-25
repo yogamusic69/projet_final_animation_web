@@ -34,6 +34,7 @@ footer {
     margin-top: 11px;
     font-family: "Copperplate";
     font-size: 30px;
+    box-shadow: 7px 7px 22px #2f302e;
     animation: menu 3s ease 1;
 }
 
@@ -54,6 +55,7 @@ a {
     margin-top: 11px;
     font-family: "Copperplate";
     font-size: 40px;
+    box-shadow: 7px 7px 22px #2f302e;
     animation: menu 3s ease 1;
 }
 
@@ -63,8 +65,10 @@ a {
     color: #557A14;
 }
 
-.menu:active {
+.menu.actif {
     background-image: linear-gradient(90deg, #8AC720, #ADFA28);
+    color: #557A14;
+    border: 5px solid #557A14;
 }
 
 .logo:hover {
@@ -97,6 +101,7 @@ a {
     font-size: 111px;
     margin-left: 80px;
     margin-top: 22px;
+    box-shadow: 7px 7px 22px #2f302e;
 }
 
 .animation {
@@ -136,6 +141,7 @@ a {
     height: 5vh; 
     line-height: 40px;
     background-color: #8AC720;
+    background-image: linear-gradient(90deg, #557A14, #8AC720);
     color: black;
     border: 5px solid black;
     border-radius: 11px;
@@ -143,11 +149,13 @@ a {
     margin-left: 25px;
     font-family: "Copperplate";
     font-size: 22px;
+    box-shadow: 7px 7px 22px #2f302e;
     animation: menu 3s ease 1;   
 }
 
-.play:onclick {
+.play:hover {
     background-color: #ADFA28;
+    background-image: linear-gradient(90deg, #8AC720, white);
     color: #557A14;
 }
 
