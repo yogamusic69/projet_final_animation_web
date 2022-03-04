@@ -52,15 +52,6 @@ footer {
     box-shadow: 7px 7px 22px #31530d;
 }
 
-/*@media screen and (max-width: 1200px) {
-    .menu {
-        font-size: 22px;
-    }
-    .logo {
-        font-size: 25px;
-    }
-}*/
-
 a {
     text-decoration: none;
 }
@@ -201,7 +192,7 @@ section {
   
 img {
     height: auto;
-    border: 5px double;
+    border: 5px double rgb(51, 66, 51);
 }
 
 .horizontal {
@@ -213,7 +204,7 @@ img {
 iframe {
     width: 48vw;
     height: 48vh;
-    border: 5px double;
+    border: 5px double rgb(51, 66, 51);
 }
 
 .vertical {
@@ -240,4 +231,26 @@ p {
 
 footer p {
     font-size: 22px;
+}
+
+footer p.black {
+    color: #C8FA73;
+}
+
+a:visited {
+    color:rgb(31, 119, 23);
+}
+
+a:link {
+    color:rgb(89, 167, 82);
+}
+
+@media screen and (max-width: 1008px) {
+    .horizontal, .vertical, iframe {
+        width: 100vw;
+        justify-content: center;
+    }
+    iframe {
+        height: 40vh;
+    }
 }
