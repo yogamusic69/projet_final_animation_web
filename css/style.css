@@ -26,7 +26,7 @@ footer {
 }
 
 .menu {
-    width: 20vw;
+    width: 19vw;
     height: 12vh; 
     line-height: 12vh;
     background-color: #8AC720;
@@ -252,5 +252,9 @@ a:link {
     }
     iframe {
         height: 40vh;
+    }
+    .chose {
+        width: 60vw;
+        font-size: 7vw;
     }
 }
